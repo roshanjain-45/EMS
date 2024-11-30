@@ -6,14 +6,14 @@ const employees = [
         "email": "e1@me.com",
         "password": "123",
         "taskCounts": {
-            "active": 2,
+            "active": 1,
             "newTask": 1,
             "completed": 1,
             "failed": 0
         },
         "tasks": [
             {
-                "active": true,
+                "active": false,
                 "newTask": true,
                 "completed": false,
                 "failed": false,
@@ -84,14 +84,14 @@ const employees = [
         "email": "e3@me.com",
         "password": "123",
         "taskCounts": {
-            "active": 2,
+            "active": 1,
             "newTask": 1,
             "completed": 1,
             "failed": 0
         },
         "tasks": [
             {
-                "active": true,
+                "active": false,
                 "newTask": true,
                 "completed": false,
                 "failed": false,
@@ -128,14 +128,14 @@ const employees = [
         "email": "e4@me.com",
         "password": "123",
         "taskCounts": {
-            "active": 2,
+            "active": 1,
             "newTask": 1,
             "completed": 0,
             "failed": 0
         },
         "tasks": [
             {
-                "active": true,
+                "active": false,
                 "newTask": true,
                 "completed": false,
                 "failed": false,
@@ -162,14 +162,14 @@ const employees = [
         "email": "e5@me.com",
         "password": "123",
         "taskCounts": {
-            "active": 2,
+            "active": 1,
             "newTask": 1,
             "completed": 1,
             "failed": 0
         },
         "tasks": [
             {
-                "active": true,
+                "active": false,
                 "newTask": true,
                 "completed": false,
                 "failed": false,
