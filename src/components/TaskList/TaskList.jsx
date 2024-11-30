@@ -6,7 +6,7 @@ import FailedTask from './FailedTask'
 
 const TaskList = ({ data }) => {
   return (
-    <div id='tasklist' className='h-[40%] overflow-y-scroll overflow-x-auto flex-col md:flex-row flex items-center justify-start gap-5 flex-nowrap w-full py-1 mt-16 hidden-scrollbar'>
+    <div id='tasklist' className='h-[40%] overflow-x-auto flex-col md:flex-row flex items-center justify-start gap-5 flex-nowrap w-full py-1 mt-16 hidden-scrollbar'>
       {data.tasks.map((elem, idx) => {
          
         if (elem.active) {

@@ -9,14 +9,12 @@ const AuthProvider = ({ children }) => {
         setLocalStorage();
         const { employees, admin } = getLocalStorage()
         setUserData({ employees, admin })
-        console.log(userData);
-
     }, [])
 
 
     return (
         <div>
-            <AuthContext.Provider value={{ userData, setUserData }}>
+            <AuthContext.Provider value={[userData, setUserData ]}>
                 {children}
             </AuthContext.Provider>
         </div>
